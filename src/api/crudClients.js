@@ -81,7 +81,7 @@ function menu() {
     console.log('\n1. Listar\n2. Adicionar\n3. Editar\n4. Remover\n5. Sair');
     rl.question('Escolha: ', op => {
       if (op === '1'){
-      listarClients(clientes, loop);
+        listarClients(clientes, loop);
       } else if (op === '2') {
         addClient(clientes, rl, loop);
       } else if (op === '3') {
